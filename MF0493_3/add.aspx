@@ -34,7 +34,7 @@
                 </div>
                 <div class="form-group">
                     <asp:Label CssClass="form-label" for="txtFnac" runat="server" Font-Bold="True">Fecha de fundación: </asp:Label>                                       
-                        <asp:TextBox CssClass="form-control" ID="txtFnac" ToolTip="Fecha de fundación" runat="server" data-provide="datepicker" readonly="" data-date-format="dd/mm/yyyy"></asp:TextBox>                                            
+                        <asp:TextBox CssClass="form-control" ID="txtFnac" ToolTip="Fecha de fundación" runat="server" data-provide="datepicker" data-date-format="dd/mm/yyyy"></asp:TextBox>                                            
                 </div>
             </div>
             <div class="col-md-6">
